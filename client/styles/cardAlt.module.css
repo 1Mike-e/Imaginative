@@ -1,0 +1,16 @@
+.cardalt_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cardalt_banner {
+  background-size: cover;
+  color: transparent;
+  width: 5rem;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+.cardalt_container_info h3 {
+  margin: 0;
+  padding: 0;
+}
