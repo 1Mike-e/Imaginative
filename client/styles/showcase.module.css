@@ -21,7 +21,7 @@
   font-size: 10px;
   padding: 5px;
 }
-.ShowcaseCard_item h3 {
+.ShowcaseCard_item_heading {
   font-size: 2rem;
   padding: 0;
   margin: 0;
@@ -49,4 +49,11 @@
 .showcase_flexItem3 {
   display: flex;
   flex-direction: column;
+}
+.ShowcaseCard_item_title {
+  font-size: 1rem;
+}
+.ShowcaseCard_banner_edit {
+  border-radius: 15px;
+  margin-bottom: 3rem;
 }

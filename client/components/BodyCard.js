@@ -1,16 +1,20 @@
 import styles from "../styles/showcase.module.css";
-import Image from "next/image";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-const ShowcaseCard = ({ height, url }) => {
+import Image from "next/image";
+
+const BodyCard = ({ height, url }) => {
   const style = {
     height: height,
     backgroundImage: `url(${url})`,
   };
   return (
-    <section className={styles.ShowcaseCard_container} style={style}>
+    <section
+      className={`${styles.ShowcaseCard_container} ${styles.ShowcaseCard_banner_edit}`}
+      style={style}
+    >
       <div className={styles.ShowcaseCard_item}>
         <button className={styles.ShowcaseCard_button}>UNCATEGORIZED</button>
-        <h3 className={styles.ShowcaseCard_item_heading}>
+        <h3 className={styles.ShowcaseCard_item_title}>
           Web Design Trends in 2021
         </h3>
       </div>
@@ -32,4 +36,4 @@ const ShowcaseCard = ({ height, url }) => {
   );
 };
 
-export default ShowcaseCard;
+export default BodyCard;
