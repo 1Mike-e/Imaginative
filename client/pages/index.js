@@ -14,7 +14,7 @@ const Home = () => {
         <Showcase />
         <div className="card-row">
           <PostCard url="https://www.cloudways.com/blog/wp-content/uploads/How-to-Convert-HTML-Website-into-WordPress-Business-Theme.jpg" />
-          <PostCard url="https://media.onlinecoursebay.com/2019/03/29124858/673420_5279_3-750x405.jpg" />
+          <PostCard url="https://c4.wallpaperflare.com/wallpaper/167/781/136/languages-programming-wallpaper-preview.jpg" />
           <PostCard url="https://i.pinimg.com/736x/d0/25/0b/d0250b7b3bef2042996d08448a5329ad.jpg" />
           <PostCard url="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
           <PostCard url="https://cdna.artstation.com/p/assets/images/images/010/311/492/large/louis-charavner-programming.jpg?1523753222" />
